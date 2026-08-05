@@ -428,23 +428,13 @@ st.markdown("---")
 st.subheader("🏠 Square Feet vs House Price")
 
 fig2 = px.scatter(
-
     df,
-
     x="Square_Feet",
-
     y="Price",
-
     color="Bedrooms",
-
     size="Bathrooms",
-
-    trendline="ols",
-
     template="plotly_white",
-
     title="Relationship Between Square Feet and Price"
-
 )
 
 fig2.update_layout(height=600)
